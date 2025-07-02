@@ -175,7 +175,7 @@ const DragHandle = ({ isSelected = false }) => (
 const ActionButton = ({ onClick, color, children }) => (
   <button
     onClick={onClick}
-    className="text-white px-6 py-2 rounded text-sm transition-colors hover:opacity-90"
+    className="text-white w-full px-6 py-2 rounded text-sm transition-colors hover:opacity-90"
     style={{ backgroundColor: color }}
   >
     {children}
@@ -430,9 +430,6 @@ const WeaponCraftingUI = () => {
         <div className="flex gap-3 mt-6 justify-center">
           <ActionButton onClick={clearAllSlots} color="#6b7280">
             Clear All
-          </ActionButton>
-          <ActionButton onClick={() => {}} color="#3b82f6">
-            Start Training
           </ActionButton>
           <ActionButton onClick={() => {}} color="#10b981">
             Deploy Army
