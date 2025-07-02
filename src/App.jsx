@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion'; // Import AnimatePresen
 
 // Weapon data (No changes)
 const WEAPON_TYPES = [
-  { value: 'spear', label: 'Spearmen', icon: '🏹', description: 'For attack' },
+  { value: 'spear', label: 'Spearmen', icon: '🔱', description: 'For attack' },
   { value: 'archer', label: 'Archers', icon: '🏹', description: 'For attack' },
   { value: 'knight', label: 'Knights', icon: '⚔️', description: 'For attack' },
 ];
